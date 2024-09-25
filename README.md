@@ -7,3 +7,6 @@ Under the "Initializating Model (RANDOM SEEDS)" section, you can see the differe
 - 'inp_rng' is what determines the min-batches selected during SGD
 - 'init_rng' controls the initialization of the SGD, ie: it intializes the weights to some arbitrary numbers and adjusts after using SGD
 
+## Utils.py
+This file has two methods: one normalizes the image values, and the other converts them into numpy arrays
+This was made into a separate file so all the workers in the data_loaders could access the methods.
